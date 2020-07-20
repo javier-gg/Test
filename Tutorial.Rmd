@@ -1,0 +1,30 @@
+---
+title: "Tutorial"
+author: "J Garrido"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## TestPackage - Tutorial
+The main functions are ``hello()`` and ``test()``. Their usage is as follows
+
+```{r test}
+library(TestPackage)
+
+hello()
+test()
+```
+
+### Some theory
+``test`` uses the following expression
+
+\begin{align}
+y = 1 + 1.
+\end{align}
+
+
+
+
