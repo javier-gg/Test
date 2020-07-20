@@ -196,7 +196,7 @@ mdpm_xc<-function(y, L, prior, nsim, nburn, nthin = 1, start = NULL, scale = TRU
     ## Sample Psi_0
     if(!("Psi_0" %in% names(prior))){
       ss<-Reduce("+", lapply(comp, function(x) solve(x$sigma)))
-      Psi_0<-CholWishart::rWishart(1, nu_1 + L*nu_0,
+      Psi_0<-rWishart(1, nu_1 + L*nu_0,
                                    solve(Psi_1_1 + ss))[, , 1]
     }
 
