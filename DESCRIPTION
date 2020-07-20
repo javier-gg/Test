@@ -13,3 +13,4 @@ Imports:
         MASS,
         mvnfast,
         CholWishart
+RoxygenNote: 7.0.2
