@@ -5,4 +5,8 @@ This is my first repository. It includes a simple function called ``hello()``. T
 hello()
 ```
 
-The output is ``"Hello, world!"``
+The output is ``"Hello, world!"``. I have added a new function called ``test()``. This function computes the folowing
+
+\begin{align}
+y = 1 + 1
+\end{align}
