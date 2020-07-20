@@ -7,6 +7,6 @@ hello()
 
 The output is ``"Hello, world!"``. I have added a new function called ``test()``. This function computes the folowing
 
-\begin{align}
+$$
 y = 1 + 1
-\end{align}
+$$
