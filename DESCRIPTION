@@ -10,4 +10,6 @@ License: GPL-2
 Encoding: UTF-8
 LazyData: true
 Imports:
-        mvnfast
+        MASS,
+        mvnfast,
+        CholWishart
