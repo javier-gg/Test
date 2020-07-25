@@ -16,7 +16,3 @@
 hello<-function(){
   print("Hello, world!")
 }
-
-test<-function(){
-  return(1 + 1)
-}
