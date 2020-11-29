@@ -1,7 +1,11 @@
 ---
 title: "Tutorial"
-author: "J Garrido"
-output: pdf_document
+author: "Javier E. Garrido Guillen"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteIndexEntry{Tutorial}
+  %\VignetteEncoding{UTF-8}
 ---
 
 ```{r setup, include=FALSE}
